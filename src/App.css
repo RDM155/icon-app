@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color:#282c34;
+  background-image: url('./Hd.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 
@@ -81,8 +84,8 @@ body {
   margin: auto;
   display: flex;
   overflow: hidden;
-  width: 500px;
-  height: 500px;
+  width: 375px;
+  height: 450px;
   background-color:white  ;
   border: none;
   cursor: pointer;
