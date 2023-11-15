@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  background-color:#282c34;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +41,73 @@
     transform: rotate(360deg);
   }
 }
+
+.button-container {
+  position: absolute;
+  top: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.Cont {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+  background-color:white  ;
+  border: none;
+  cursor: pointer;
+  justify-content: center;  
+}
+.Cont h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;  
+}
+
+.profile img {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+}
+
+
+.profile h4 {
+  font-size: 14px; 
+  margin-top: 5px; 
+}
+
